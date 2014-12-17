@@ -42,6 +42,10 @@ namespace GitDemo
                  "~/Content/bootstrap.css",
                  "~/Content/Site.css"));
 
+            bundles.Add(new ScriptBundle("~/bundles/guru").Include(
+                "~/Scripts/app/gurumeditation.js"
+                ));
+
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
             BundleTable.EnableOptimizations = true;
